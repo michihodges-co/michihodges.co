@@ -1,2 +1,2 @@
-# michihodges.com
+# michihodges.co
 Personal Website

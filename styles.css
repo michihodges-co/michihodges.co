@@ -1,0 +1,19 @@
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #000;
+    height: 100vh;
+    color: #fff;
+    padding: 50px 0 0 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+}

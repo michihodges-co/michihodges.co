@@ -15,5 +15,12 @@ header {
 
 h1 {
     margin: 0;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: "Source Code Pro", monospace;
+    color: #64FFDA
+}
+
+h2 {
+    font-size: 16px;
+    font-family: "Source Code Pro", monospace;
 }

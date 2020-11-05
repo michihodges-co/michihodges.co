@@ -7,9 +7,11 @@ body {
 }
 
 header {
-    background-color: #0A192F;
+    /* background-color: #0A192F; */
+    background-color: #98A67B;
     height: 100vh;
-    color: #fff;
+    /* color: #fff; */
+    color: #eee;
     padding: 50px 0 0 40px;
 }
 
@@ -17,7 +19,8 @@ h1 {
     margin: 0;
     font-size: 16px;
     font-family: "Source Code Pro", monospace;
-    color: #64FFDA;
+    /* color: #64FFDA; */
+    color: #222;
 }
 
 h2 {

@@ -4,12 +4,12 @@
 
 body {
     margin: 0;
+    background-color: #98A67B;
+    height: 100vh;
 }
 
 header {
     /* background-color: #0A192F; */
-    background-color: #98A67B;
-    height: 100vh;
     /* color: #fff; */
     color: #eee;
     padding: 50px 0 0 40px;

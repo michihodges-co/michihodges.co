@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #98a67b;
+      }
+    </style>
+  </defs>
+  <image id="Hintergrund" width="16" height="16" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIUlEQVQ4jWP8////fwYKABMlmhlGDRg1YNSAwWIAAwMDAGvKBByMwGQbAAAAAElFTkSuQmCC"/>
+  <rect id="Rechteck_1" data-name="Rechteck 1" class="cls-1" width="16" height="16"/>
+</svg>

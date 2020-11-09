@@ -1,0 +1,26 @@
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+    background-color: #98A67B;
+    height: 100vh;
+}
+
+header {
+    color: #eee;
+    padding: 50px 0 0 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 16px;
+    font-family: "Source Code Pro", monospace;
+    color: #222;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: "Source Code Pro", monospace;
+}

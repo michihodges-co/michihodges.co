@@ -1,29 +1,4 @@
-* {
-    -webkit-font-smoothing: antialiased;
-}
-
-body {
-    margin: 0;
-    background-color: #98A67B;
-    height: 100vh;
-}
-
-header {
-    /* background-color: #0A192F; */
-    /* color: #fff; */
-    color: #eee;
-    padding: 50px 0 0 40px;
-}
-
-h1 {
-    margin: 0;
-    font-size: 16px;
-    font-family: "Source Code Pro", monospace;
-    /* color: #64FFDA; */
-    color: #222;
-}
-
-h2 {
-    font-size: 16px;
-    font-family: "Source Code Pro", monospace;
-}
+@import url(styles/global.css);
+@import url(styles/mobile.css);
+@import url(styles/tablet.css);
+@import url(styles/desktop.css);

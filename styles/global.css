@@ -1,7 +1,9 @@
+/* FONT SMOOTHING*/
 * {
     -webkit-font-smoothing: antialiased;
 }
 
+/* LAYOUT */
 body {
     margin: 0;
     background-color: #98A67B;
@@ -9,18 +11,18 @@ body {
 }
 
 header {
-    color: #eee;
     padding: 50px 0 0 40px;
 }
 
 h1 {
     margin: 0;
-    font-size: 16px;
     font-family: "Source Code Pro", monospace;
+    font-size: 16px;
     color: #222;
 }
 
 h2 {
-    font-size: 16px;
     font-family: "Source Code Pro", monospace;
+    font-size: 16px;
+    color: #eee;
 }

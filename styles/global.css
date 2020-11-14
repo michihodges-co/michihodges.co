@@ -10,12 +10,22 @@ body {
     height: 100vh;
 }
 
+nav {
+    position: fixed;
+    padding: 20px 20px 0 20px;
+}
+
 header {
-    padding: 50px 0 0 40px;
+    padding: 0 20px;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 h1 {
     margin: 0;
+    width: 100vw;
     font-family: "Source Code Pro", monospace;
     font-size: 15px;
     color: #222;
@@ -24,7 +34,7 @@ h1 {
 
 h2 {
     font-family: "Source Code Pro", monospace;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
     color: #eee;
 }

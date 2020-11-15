@@ -7,12 +7,12 @@
 body {
     margin: 0;
     background-color: #98A67B;
-    height: 100vh;
 }
 
 nav {
     position: fixed;
     padding: 20px 20px 0 20px;
+    background-color: #98A67B;
 }
 
 header {

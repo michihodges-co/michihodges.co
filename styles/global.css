@@ -6,17 +6,18 @@ html {
     box-sizing: inherit;
   }
 
-/* FONT SMOOTHING*/
+/* FONT SMOOTHING */
 * {
     -webkit-font-smoothing: antialiased;
 }
 
-/* LAYOUT */
+/* BODY */
 body {
     margin: 0;
     background-color: #98A67B;
 }
 
+/* NAVIGATION */
 nav {
     position: fixed;
     width: 100vw;
@@ -38,6 +39,7 @@ h1, .menu {
     text-transform: uppercase;
 }
 
+/* HERO */
 header {
     padding: 0 20px;
     height: 100vh;
@@ -64,5 +66,18 @@ h3 {
 p {
     font-family: "Source Code Pro", monospace;
     font-size: 20px;
+    color: #eee;
+}
+
+/* FOOTER */
+footer {
+    width: 100vw;
+    padding: 10px 20px;
+    background-color: #222;
+}
+
+.copyright {
+    font-family: "Source Code Pro", monospace;
+    font-size: 15px;
     color: #eee;
 }

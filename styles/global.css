@@ -71,13 +71,13 @@ p {
 }
 
 /* MAIN */
-main {
+section {
     height: 100vh;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
 .card {
-    height: 80px;
+    height: 100%;
     margin: 0 0 20px 0;
     padding: 15px 20px;
     border-radius: 15px;
@@ -87,7 +87,6 @@ main {
 
 /* FOOTER */
 footer {
-    width: 100vw;
     padding: 10px 20px;
     background-color: #222;
 }

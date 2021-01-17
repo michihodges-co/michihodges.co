@@ -18,7 +18,7 @@ body {
 }
 
 /* NAVIGATION */
-nav {
+/* nav {
     position: fixed;
     width: 100vw;
     padding: 10px 20px;
@@ -41,12 +41,12 @@ nav {
 
 .menu {
     text-transform: uppercase;
-}
+} */
 
 /* HERO */
 header {
     padding: 0 20px;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -91,8 +91,11 @@ section {
 
 /* FOOTER */
 footer {
-    padding: 10px 20px;
+    height: 5vh;
+    padding-left: 20px;
     background-color: #222;
+    display: flex;
+    align-items: center;
 }
 
 .copyright {

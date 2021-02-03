@@ -18,7 +18,7 @@ body {
 }
 
 /* NAVIGATION */
-/* nav {
+nav {
     position: fixed;
     width: 100vw;
     padding: 10px 20px;
@@ -27,21 +27,15 @@ body {
     justify-content: space-between;
 }
 
-.home, .menu {
+.home, menu {
     margin: 0;
     font-family: "Source Code Pro", monospace;
     font-size: 15px;
+    font-weight: 500;
     color: #222;
     letter-spacing: 3px;
-}
-
-.home {
-    font-weight: 700;
-}
-
-.menu {
     text-transform: uppercase;
-} */
+}
 
 /* HERO */
 header {

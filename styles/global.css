@@ -40,7 +40,7 @@ nav {
 /* HERO */
 header {
     padding: 0 20px;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -72,6 +72,10 @@ p {
 section {
     height: 100vh;
     padding: 40px 20px;
+}
+
+.social-media {
+    background-color: #627b82;
 }
 
 .card {

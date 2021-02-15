@@ -19,11 +19,11 @@ body {
 
 /* NAVIGATION */
 nav {
-    position: fixed;
-    width: 100vw;
-    padding: 10px 20px;
+    height: 7vh;
+    padding-left: 20px;
     background-color: #98A67B;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -43,7 +43,7 @@ menu {
 /* HERO */
 header {
     padding: 0 20px;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     align-content: center;
     flex-wrap: wrap;

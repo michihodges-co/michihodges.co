@@ -14,7 +14,6 @@ html {
 /* BODY */
 body {
     margin: 0;
-    background-color: #98A67B;
 }
 
 /* NAVIGATION */
@@ -42,8 +41,9 @@ menu {
 
 /* HERO */
 header {
+    background-color: #98A67B;
     padding: 0 20px;
-    height: 95vh;
+    height: 93vh;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -73,12 +73,15 @@ p {
 
 /* MAIN */
 section {
-    height: 100vh;
+    height: 95vh;
     padding: 40px 20px;
 }
 
 .social-media {
     background-color: #627b82;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -89,6 +92,28 @@ section {
     background-color: #eee;
 }
 
+/* SOCIAL MEDIA */
+.list-reset {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.link-reset li a {
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+    color: #eee;
+}
+
+.link-reset li a:hover {
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+    color: #ff6700;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+}
 
 /* FOOTER */
 footer {

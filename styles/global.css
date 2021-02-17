@@ -80,8 +80,8 @@ section {
 .social-media {
     background-color: #627b82;
     display: flex;
-    align-content: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .card {

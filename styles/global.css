@@ -43,10 +43,18 @@ menu {
 header {
     background-color: #98A67B;
     padding: 0 20px;
-    height: 93vh;
+    height: 88vh;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h1 a:visited {
+    color: #222;
 }
 
 h2 {
@@ -56,15 +64,6 @@ h2 {
     color: #eee;
 }
 
-h3 {
-    margin: 0;
-    font-family: "Source Code Pro", monospace;
-    font-size: 13px;
-    font-weight: 700;
-    color: #222;
-    letter-spacing: 2px;
-}
-
 p {
     font-family: "Source Code Pro", monospace;
     font-size: 20px;
@@ -72,16 +71,26 @@ p {
 }
 
 /* MAIN */
+main {
+    height: 100vh;
+    background-color: #627b82
+}
+
+/* SECTION */
 section {
     height: 95vh;
     padding: 40px 20px;
 }
 
 .social-media {
-    background-color: #627b82;
+    background-color: #222;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.social-media ul li {
+    margin-right: 10px;
 }
 
 .card {

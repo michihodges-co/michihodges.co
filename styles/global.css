@@ -12,12 +12,12 @@ html {
 }
 
 /* BODY */
-body {
+.body--global {
     margin: 0;
 }
 
-/* NAVIGATION */
-nav {
+/* NAV */
+.nav--global {
     height: 7vh;
     padding-left: 20px;
     background-color: #98A67B;
@@ -26,7 +26,7 @@ nav {
     justify-content: space-between;
 }
 
-.home, menu {
+.h1--global {
     margin: 0;
     font-family: "Source Code Pro", monospace;
     font-size: 15px;
@@ -35,12 +35,16 @@ nav {
     letter-spacing: 3px;
 }
 
-menu {
-    text-transform: uppercase;
+.a--global {
+    text-decoration: none;
+}
+
+.a--global:visited {
+    color: #222;
 }
 
 /* HERO */
-header {
+.header--landing {
     background-color: #98A67B;
     padding: 0 20px;
     height: 88vh;
@@ -49,83 +53,21 @@ header {
     flex-wrap: wrap;
 }
 
-h1 a {
-    text-decoration: none;
-}
-
-h1 a:visited {
-    color: #222;
-}
-
-h2 {
+.h2--landing {
     font-family: "Source Code Pro", monospace;
     font-size: 24px;
     font-weight: 700;
     color: #eee;
 }
 
-p {
+.p--landing {
     font-family: "Source Code Pro", monospace;
     font-size: 20px;
     color: #eee;
-}
-
-/* MAIN */
-main {
-    height: 100vh;
-    background-color: #627b82
-}
-
-/* SECTION */
-section {
-    height: 95vh;
-    padding: 40px 20px;
-}
-
-.social-media {
-    background-color: #222;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.social-media ul li {
-    margin-right: 10px;
-}
-
-.card {
-    height: 100%;
-    margin: 0 0 20px 0;
-    padding: 15px 20px;
-    border-radius: 15px;
-    background-color: #eee;
-}
-
-/* SOCIAL MEDIA */
-.list-reset {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-.link-reset li a {
-    font-family: "Source Code Pro", monospace;
-    font-size: 20px;
-    color: #eee;
-}
-
-.link-reset li a:hover {
-    font-family: "Source Code Pro", monospace;
-    font-size: 20px;
-    color: #ff6700;
-}
-
-.social-media ul li a {
-    text-decoration: none;
 }
 
 /* FOOTER */
-footer {
+.footer--global {
     height: 5vh;
     padding-left: 20px;
     background-color: #222;

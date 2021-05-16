@@ -1,4 +1,8 @@
-console.log("js working");
+console.log('js working');
+
+document.addEventListener('click', function () {
+    console.log("The page was clicked");
+}, {once: true});
 
 // BODY ////
 const bodyGlobal = document.querySelector('body');

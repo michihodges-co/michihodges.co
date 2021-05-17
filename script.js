@@ -1,8 +1,9 @@
 console.log('js working');
 
-document.addEventListener('click', function () {
-    console.log("The page was clicked");
-}, {once: true});
+function clickOnce() {
+    console.log('The page was clicked');
+}
+document.addEventListener('click', clickOnce, {once: true});
 
 // BODY ////
 const bodyGlobal = document.querySelector('body');

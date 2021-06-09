@@ -59,6 +59,11 @@ pLanding.classList.add('p--landing');
 const pLandingIntro = document.createTextNode('I like to tinker about with frontend code on a cosy farm in the Brecon Beacons listening to ambient music.');
 pLanding.appendChild(pLandingIntro);
 
+// H3
+const h3GitHub = document.createElement('h3');
+headerLanding.appendChild(h3GitHub);
+const h3GitHubLink = document.createTextNode('GitHub');
+h3GitHub.appendChild(h3GitHubLink);
 
 // FOOTER ////
 const footerGlobal = document.createElement('footer');

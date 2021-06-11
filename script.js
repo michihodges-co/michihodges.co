@@ -70,6 +70,11 @@ headerLanding.appendChild(h3LinkedIn);
 const h3LinkedInLink = document.createTextNode('LinkedIn');
 h3GitHub.appendChild(h3LinkedInLink);
 
+const h3Medium = document.createElement('h3');
+headerLanding.appendChild(h3Medium);
+const h3MediumLink = document.createTextNode('Medium');
+h3GitHub.appendChild(h3MediumLink);
+
 // FOOTER ////
 const footerGlobal = document.createElement('footer');
 bodyGlobal.appendChild(footerGlobal);

@@ -75,6 +75,11 @@ headerLanding.appendChild(h3Medium);
 const h3MediumLink = document.createTextNode('Medium');
 h3GitHub.appendChild(h3MediumLink);
 
+const h3Twitter = document.createElement('h3');
+headerLanding.appendChild(h3Twitter);
+const h3TwitterLink = document.createTextNode('Twitter');
+h3Twitter.appendChild(h3TwitterLink);
+
 // FOOTER ////
 const footerGlobal = document.createElement('footer');
 bodyGlobal.appendChild(footerGlobal);

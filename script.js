@@ -65,6 +65,11 @@ headerLanding.appendChild(h3GitHub);
 const h3GitHubLink = document.createTextNode('GitHub');
 h3GitHub.appendChild(h3GitHubLink);
 
+const h3CodePen = document.createElement('h3');
+headerLanding.appendChild(h3CodePen);
+const h3CodePenLink = document.createTextNode('CodePen');
+h3CodePen.appendChild(h3CodePenLink);
+
 const h3LinkedIn = document.createElement('h3');
 headerLanding.appendChild(h3LinkedIn);
 const h3LinkedInLink = document.createTextNode('LinkedIn');

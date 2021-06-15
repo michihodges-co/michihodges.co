@@ -75,6 +75,11 @@ headerLanding.appendChild(h3LinkedIn);
 const h3LinkedInLink = document.createTextNode('LinkedIn');
 h3GitHub.appendChild(h3LinkedInLink);
 
+const h3StackOverflow = document.createElement('h3');
+headerLanding.appendChild(h3StackOverflow);
+const h3StackOverflowLink = document.createTextNode('StackOverflow');
+h3StackOverflow.appendChild(h3StackOverflowLink);
+
 const h3Medium = document.createElement('h3');
 headerLanding.appendChild(h3Medium);
 const h3MediumLink = document.createTextNode('Medium');

@@ -70,6 +70,16 @@ headerLanding.appendChild(h3CodePen);
 const h3CodePenLink = document.createTextNode('CodePen');
 h3CodePen.appendChild(h3CodePenLink);
 
+const h3Behance = document.createElement('h3');
+headerLanding.appendChild(h3Behance);
+const h3BehanceLink = document.createTextNode('Behance');
+h3Behance.appendChild(h3BehanceLink);
+
+const h3Medium = document.createElement('h3');
+headerLanding.appendChild(h3Medium);
+const h3MediumLink = document.createTextNode('Medium');
+h3GitHub.appendChild(h3MediumLink);
+
 const h3LinkedIn = document.createElement('h3');
 headerLanding.appendChild(h3LinkedIn);
 const h3LinkedInLink = document.createTextNode('LinkedIn');
@@ -77,18 +87,18 @@ h3GitHub.appendChild(h3LinkedInLink);
 
 const h3StackOverflow = document.createElement('h3');
 headerLanding.appendChild(h3StackOverflow);
-const h3StackOverflowLink = document.createTextNode('StackOverflow');
+const h3StackOverflowLink = document.createTextNode('Stack Overflow');
 h3StackOverflow.appendChild(h3StackOverflowLink);
-
-const h3Medium = document.createElement('h3');
-headerLanding.appendChild(h3Medium);
-const h3MediumLink = document.createTextNode('Medium');
-h3GitHub.appendChild(h3MediumLink);
 
 const h3Twitter = document.createElement('h3');
 headerLanding.appendChild(h3Twitter);
 const h3TwitterLink = document.createTextNode('Twitter');
 h3Twitter.appendChild(h3TwitterLink);
+
+const h3Instagram = document.createElement('h3');
+headerLanding.appendChild(h3Instagram);
+const h3InstagramLink = document.createTextNode('Instagram');
+h3Instagram.appendChild(h3InstagramLink);
 
 // FOOTER ////
 const footerGlobal = document.createElement('footer');

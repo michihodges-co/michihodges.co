@@ -78,12 +78,12 @@ h3Behance.appendChild(h3BehanceLink);
 const h3Medium = document.createElement('h3');
 headerLanding.appendChild(h3Medium);
 const h3MediumLink = document.createTextNode('Medium');
-h3GitHub.appendChild(h3MediumLink);
+h3Medium.appendChild(h3MediumLink);
 
 const h3LinkedIn = document.createElement('h3');
 headerLanding.appendChild(h3LinkedIn);
 const h3LinkedInLink = document.createTextNode('LinkedIn');
-h3GitHub.appendChild(h3LinkedInLink);
+h3LinkedIn.appendChild(h3LinkedInLink);
 
 const h3StackOverflow = document.createElement('h3');
 headerLanding.appendChild(h3StackOverflow);

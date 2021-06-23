@@ -62,6 +62,7 @@ pLanding.appendChild(pLandingIntro);
 // H3
 const h3GitHub = document.createElement('h3');
 headerLanding.appendChild(h3GitHub);
+h3GitHub.classList.add('h2--landing');
 const h3GitHubLink = document.createTextNode('GitHub');
 h3GitHub.appendChild(h3GitHubLink);
 

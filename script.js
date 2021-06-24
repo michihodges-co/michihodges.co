@@ -68,6 +68,7 @@ h3GitHub.appendChild(h3GitHubLink);
 
 const h3CodePen = document.createElement('h3');
 headerLanding.appendChild(h3CodePen);
+h3CodePen.classList.add('h2--landing');
 const h3CodePenLink = document.createTextNode('CodePen');
 h3CodePen.appendChild(h3CodePenLink);
 

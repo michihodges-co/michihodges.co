@@ -74,6 +74,7 @@ h3CodePen.appendChild(h3CodePenLink);
 
 const h3Behance = document.createElement('h3');
 headerLanding.appendChild(h3Behance);
+h3Behance.classList.add('h2--landing');
 const h3BehanceLink = document.createTextNode('Behance');
 h3Behance.appendChild(h3BehanceLink);
 

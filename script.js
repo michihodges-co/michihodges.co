@@ -80,6 +80,7 @@ h3Behance.appendChild(h3BehanceLink);
 
 const h3Medium = document.createElement('h3');
 headerLanding.appendChild(h3Medium);
+h3Medium.classList.add('h2--landing');
 const h3MediumLink = document.createTextNode('Medium');
 h3Medium.appendChild(h3MediumLink);
 

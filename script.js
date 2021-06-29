@@ -86,6 +86,7 @@ h3Medium.appendChild(h3MediumLink);
 
 const h3LinkedIn = document.createElement('h3');
 headerLanding.appendChild(h3LinkedIn);
+h3LinkedIn.classList.add('h2--landing');
 const h3LinkedInLink = document.createTextNode('LinkedIn');
 h3LinkedIn.appendChild(h3LinkedInLink);
 

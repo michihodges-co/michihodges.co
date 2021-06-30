@@ -92,6 +92,7 @@ h3LinkedIn.appendChild(h3LinkedInLink);
 
 const h3StackOverflow = document.createElement('h3');
 headerLanding.appendChild(h3StackOverflow);
+h3StackOverflow.classList.add('h2--landing');
 const h3StackOverflowLink = document.createTextNode('Stack Overflow');
 h3StackOverflow.appendChild(h3StackOverflowLink);
 

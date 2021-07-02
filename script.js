@@ -98,6 +98,7 @@ h3StackOverflow.appendChild(h3StackOverflowLink);
 
 const h3Twitter = document.createElement('h3');
 headerLanding.appendChild(h3Twitter);
+h3Twitter.classList.add('h2--landing');
 const h3TwitterLink = document.createTextNode('Twitter');
 h3Twitter.appendChild(h3TwitterLink);
 

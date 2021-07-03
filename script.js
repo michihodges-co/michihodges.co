@@ -104,6 +104,7 @@ h3Twitter.appendChild(h3TwitterLink);
 
 const h3Instagram = document.createElement('h3');
 headerLanding.appendChild(h3Instagram);
+h3Instagram.classList.add('h2--landing');
 const h3InstagramLink = document.createTextNode('Instagram');
 h3Instagram.appendChild(h3InstagramLink);
 

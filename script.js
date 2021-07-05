@@ -56,7 +56,7 @@ h2Landing.appendChild(h2LandingTitle);
 const pLanding = document.createElement('p');
 headerLanding.appendChild(pLanding);
 pLanding.classList.add('p--landing');
-const pLandingIntro = document.createTextNode('I like to tinker about with code on the outskirts of Stuttgart.');
+const pLandingIntro = document.createTextNode('I tinker about with frontend code on the outskirts of Stuttgart.');
 pLanding.appendChild(pLandingIntro);
 
 // H3

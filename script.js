@@ -60,6 +60,7 @@ const pLandingIntro = document.createTextNode('I tinker about with frontend code
 pLanding.appendChild(pLandingIntro);
 
 // H3
+/*
 const h3GitHub = document.createElement('h3');
 headerLanding.appendChild(h3GitHub);
 h3GitHub.classList.add('h2--landing');
@@ -107,6 +108,7 @@ headerLanding.appendChild(h3Instagram);
 h3Instagram.classList.add('h2--landing');
 const h3InstagramLink = document.createTextNode('Instagram');
 h3Instagram.appendChild(h3InstagramLink);
+*/
 
 // FOOTER ////
 const footerGlobal = document.createElement('footer');

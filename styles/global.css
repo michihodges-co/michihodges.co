@@ -37,6 +37,7 @@ html {
 
 .a--global {
     text-decoration: none;
+    color: #222;
 }
 
 .a--global:visited {

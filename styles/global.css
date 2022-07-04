@@ -55,6 +55,7 @@ html {
 }
 
 .h2--landing {
+    width: 100%;
     font-family: "Source Code Pro", monospace;
     font-size: 24px;
     font-weight: 700;
@@ -62,6 +63,7 @@ html {
 }
 
 .p--landing {
+    width: 100%;
     font-family: "Source Code Pro", monospace;
     font-size: 20px;
     color: #eee;

@@ -119,5 +119,5 @@ footerGlobal.classList.add('footer--global');
 const copyright = document.createElement('span');
 footerGlobal.appendChild(copyright);
 copyright.classList.add('copyright');
-const copyrightContent = document.createTextNode('michihodges © 2021');
+const copyrightContent = document.createTextNode('michihodges © 2022');
 copyright.appendChild(copyrightContent);

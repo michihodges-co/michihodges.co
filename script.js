@@ -18,12 +18,12 @@ navbar.classList.add('nav--global');
 // H1
 const logo = document.createElement('h1');
 navbar.appendChild(logo);
-logo.classList.add('h1--global');
+logo.classList.add('h1--logo');
 
 // A
 const homeLink = document.createElement('a');
 logo.appendChild(homeLink);
-homeLink.classList.add('a--global');
+homeLink.classList.add('a--logo');
 homeLink.setAttribute('href', 'https://michihodges.co/');
 const michihodges = document.createTextNode('michihodges ');
 homeLink.appendChild(michihodges);
@@ -59,14 +59,46 @@ pLanding.classList.add('p--landing');
 const pLandingIntro = document.createTextNode('I tinker about with frontend code on the outskirts of Stuttgart.');
 pLanding.appendChild(pLandingIntro);
 
-// H3
-/*
+// H3 GITHUB
 const h3GitHub = document.createElement('h3');
 headerLanding.appendChild(h3GitHub);
-h3GitHub.classList.add('h2--landing');
-const h3GitHubLink = document.createTextNode('GitHub');
-h3GitHub.appendChild(h3GitHubLink);
+h3GitHub.classList.add('h3--landing');
 
+// A GITHUB
+const gitHubLink = document.createElement('a');
+h3GitHub.appendChild(gitHubLink);
+gitHubLink.classList.add('a--social');
+gitHubLink.setAttribute('href', 'https://github.com/michihodges');
+const gitHub = document.createTextNode('GitHub');
+gitHubLink.appendChild(gitHub);
+
+// H3 LINKEDIN
+const h3LinkedIn = document.createElement('h3');
+headerLanding.appendChild(h3LinkedIn);
+h3LinkedIn.classList.add('h3--landing');
+
+// A LINKEDIN
+const linkedInLink = document.createElement('a');
+h3LinkedIn.appendChild(linkedInLink);
+linkedInLink.classList.add('a--social');
+linkedInLink.setAttribute('href', 'https://www.linkedin.com/in/michihodges/');
+const linkedIn = document.createTextNode('LinkedIn');
+linkedInLink.appendChild(linkedIn);
+
+// H3 TWITTER
+const h3Twitter = document.createElement('h3');
+headerLanding.appendChild(h3Twitter);
+h3Twitter.classList.add('h3--landing');
+
+// A TWITTER
+const twitterLink = document.createElement('a');
+h3Twitter.appendChild(twitterLink);
+twitterLink.classList.add('a--social');
+twitterLink.setAttribute('href', 'https://twitter.com/michihodges');
+const twitter = document.createTextNode('Twitter');
+twitterLink.appendChild(twitter);
+
+/*
 const h3CodePen = document.createElement('h3');
 headerLanding.appendChild(h3CodePen);
 h3CodePen.classList.add('h2--landing');
@@ -85,23 +117,11 @@ h3Medium.classList.add('h2--landing');
 const h3MediumLink = document.createTextNode('Medium');
 h3Medium.appendChild(h3MediumLink);
 
-const h3LinkedIn = document.createElement('h3');
-headerLanding.appendChild(h3LinkedIn);
-h3LinkedIn.classList.add('h2--landing');
-const h3LinkedInLink = document.createTextNode('LinkedIn');
-h3LinkedIn.appendChild(h3LinkedInLink);
-
 const h3StackOverflow = document.createElement('h3');
 headerLanding.appendChild(h3StackOverflow);
 h3StackOverflow.classList.add('h2--landing');
 const h3StackOverflowLink = document.createTextNode('Stack Overflow');
 h3StackOverflow.appendChild(h3StackOverflowLink);
-
-const h3Twitter = document.createElement('h3');
-headerLanding.appendChild(h3Twitter);
-h3Twitter.classList.add('h2--landing');
-const h3TwitterLink = document.createTextNode('Twitter');
-h3Twitter.appendChild(h3TwitterLink);
 
 const h3Instagram = document.createElement('h3');
 headerLanding.appendChild(h3Instagram);

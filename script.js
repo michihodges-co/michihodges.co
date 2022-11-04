@@ -137,7 +137,7 @@ footerGlobal.classList.add('footer--global');
 
 // DYNAMIC YEAR
 let year = new Date().getFullYear();
-let date = `michihodges © ${year}`;
+let date = `© ${year} michihodges`;
 
 // SPAN
 const copyright = document.createElement('span');

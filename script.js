@@ -32,7 +32,7 @@ homeLink.appendChild(michihodges);
 const peekABoo = document.createElement('span');
 homeLink.appendChild(peekABoo);
 peekABoo.classList.add('peek-a-boo');
-const hidden = document.createTextNode('| Frontend JavaScript Web Developer');
+const hidden = document.createTextNode('| Frontend Developer');
 peekABoo.appendChild(hidden);
 
 
@@ -49,7 +49,7 @@ const h2LandingName = document.createTextNode('Michael Hodges');
 h2Landing.appendChild(h2LandingName);
 const brGlobal = document.createElement('br');
 h2Landing.appendChild(brGlobal);
-const h2LandingTitle = document.createTextNode('Frontend JavaScript Web Developer');
+const h2LandingTitle = document.createTextNode('Frontend Developer');
 h2Landing.appendChild(h2LandingTitle);
 
 // P

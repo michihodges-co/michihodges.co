@@ -135,9 +135,13 @@ const footerGlobal = document.createElement('footer');
 bodyGlobal.appendChild(footerGlobal);
 footerGlobal.classList.add('footer--global');
 
+// DYNAMIC YEAR
+let year = new Date().getFullYear();
+let date = `michihodges © ${year}`;
+
 // SPAN
 const copyright = document.createElement('span');
 footerGlobal.appendChild(copyright);
 copyright.classList.add('copyright');
-const copyrightContent = document.createTextNode('michihodges © 2022');
+const copyrightContent = document.createTextNode(date);
 copyright.appendChild(copyrightContent);

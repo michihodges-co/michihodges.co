@@ -25,7 +25,7 @@ const homeLink = document.createElement('a');
 logo.appendChild(homeLink);
 homeLink.classList.add('a--logo');
 homeLink.setAttribute('href', 'https://michihodges.co/');
-const michihodges = document.createTextNode('michihodges ');
+const michihodges = document.createTextNode('Michael Hodges ');
 homeLink.appendChild(michihodges);
 
 // SPAN
@@ -42,6 +42,7 @@ bodyGlobal.appendChild(headerLanding);
 headerLanding.classList.add('header--landing');
 
 // H2
+/*
 const h2Landing = document.createElement('h2');
 headerLanding.appendChild(h2Landing);
 h2Landing.classList.add('h2--landing');
@@ -51,6 +52,7 @@ const brGlobal = document.createElement('br');
 h2Landing.appendChild(brGlobal);
 const h2LandingTitle = document.createTextNode('Frontend Developer');
 h2Landing.appendChild(h2LandingTitle);
+*/
 
 // P
 const pLanding = document.createElement('p');
@@ -137,7 +139,7 @@ footerGlobal.classList.add('footer--global');
 
 // DYNAMIC YEAR
 let year = new Date().getFullYear();
-let date = `© ${year} michihodges`;
+let date = `© ${year} Michael Hodges`;
 
 // SPAN
 const copyright = document.createElement('span');

@@ -147,3 +147,30 @@ footerGlobal.appendChild(copyright);
 copyright.classList.add('copyright');
 const copyrightContent = document.createTextNode(date);
 copyright.appendChild(copyrightContent);
+
+// SET AUTOMATIC REFRESH //
+function refreshAt(hours, minutes, seconds) {
+    var now = new Date();
+    var then = new Date();
+
+    if(now.getHours() > hours ||
+       (now.getHours() == hours && now.getMinutes() > minutes) ||
+        now.getHours() == hours && now.getMinutes() == minutes && now.getSeconds() >= seconds) {
+        then.setDate(now.getDate() + 1);
+        console.log('refresh successful');
+    }
+    then.setHours(hours);
+    then.setMinutes(minutes);
+    then.setSeconds(seconds);
+
+    var timeout = (then.getTime() - now.getTime());
+    setTimeout(function() { window.location.reload(true); }, timeout);
+}
+
+refreshAt(0,0,0); // refresh page at 00:00am
+refreshAt(1,0,0); // refresh page at 01:00am
+refreshAt(6,0,0); // refresh page at 06:00am
+refreshAt(9,0,0); // refresh page at 09:00am
+refreshAt(12,0,0); // refresh page at 12:00pm
+refreshAt(18,0,0); // refresh page at 18:00pm
+refreshAt(21,0,0); // refresh page at 21:00pm

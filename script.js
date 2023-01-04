@@ -74,6 +74,7 @@ gitHubLink.setAttribute('href', 'https://github.com/michihodges');
 const gitHub = document.createTextNode('GitHub');
 gitHubLink.appendChild(gitHub);
 
+/*
 // H3 LINKEDIN
 const h3LinkedIn = document.createElement('h3');
 headerLanding.appendChild(h3LinkedIn);
@@ -100,7 +101,6 @@ twitterLink.setAttribute('href', 'https://twitter.com/michihodges');
 const twitter = document.createTextNode('Twitter');
 twitterLink.appendChild(twitter);
 
-/*
 const h3CodePen = document.createElement('h3');
 headerLanding.appendChild(h3CodePen);
 h3CodePen.classList.add('h2--landing');

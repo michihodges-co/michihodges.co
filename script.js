@@ -87,6 +87,7 @@ linkedInLink.classList.add('a--social');
 linkedInLink.setAttribute('href', 'https://www.linkedin.com/in/michihodges/');
 const linkedIn = document.createTextNode('LinkedIn');
 linkedInLink.appendChild(linkedIn);
+*/
 
 // H3 TWITTER
 const h3Twitter = document.createElement('h3');
@@ -101,6 +102,7 @@ twitterLink.setAttribute('href', 'https://twitter.com/michihodges');
 const twitter = document.createTextNode('Twitter');
 twitterLink.appendChild(twitter);
 
+/*
 const h3CodePen = document.createElement('h3');
 headerLanding.appendChild(h3CodePen);
 h3CodePen.classList.add('h2--landing');

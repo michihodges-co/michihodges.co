@@ -176,3 +176,11 @@ refreshAt(9,0,0); // refresh page at 09:00am
 refreshAt(12,0,0); // refresh page at 12:00pm
 refreshAt(18,0,0); // refresh page at 18:00pm
 refreshAt(21,0,0); // refresh page at 21:00pm
+
+var time = new Date();
+
+if (time >= 12) {
+    document.querySelector('body').style.backgroundColor = 'blue';
+} else if (time >= 13) {
+    document.querySelector('body').style.backgroundColor = 'red';
+}

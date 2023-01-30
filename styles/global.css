@@ -14,14 +14,13 @@ html {
 /* BODY */
 .body--global {
     margin: 0;
-    background-color: #98A67B;
 }
 
 /* NAV */
 .nav--global {
     height: 7vh;
     padding-left: 20px;
-    background-color: #98A67B;
+    /* background-color: #98A67B; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +48,7 @@ html {
 
 /* HEADER */
 .header--landing {
-    background-color: #98A67B;
+    /* background-color: #98A67B; */
     padding: 0 20px;
     height: 88vh;
     display: flex;

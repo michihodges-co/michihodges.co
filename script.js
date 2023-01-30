@@ -171,16 +171,25 @@ function refreshAt(hours, minutes, seconds) {
 
 refreshAt(0,0,0); // refresh page at 00:00am
 refreshAt(1,0,0); // refresh page at 01:00am
-refreshAt(6,0,0); // refresh page at 06:00am
+// refreshAt(6,0,0); // refresh page at 06:00am
 refreshAt(9,0,0); // refresh page at 09:00am
-refreshAt(12,0,0); // refresh page at 12:00pm
+// refreshAt(12,0,0); // refresh page at 12:00pm
 refreshAt(18,0,0); // refresh page at 18:00pm
-refreshAt(21,0,0); // refresh page at 21:00pm
+// refreshAt(21,0,0); // refresh page at 21:00pm
 
-var time = new Date();
+let today = new Date();
+let hourNow = today.getHours();
 
-if (time >= 12) {
-    document.querySelector('body').style.backgroundColor = 'blue';
-} else if (time >= 13) {
-    document.querySelector('body').style.backgroundColor = 'red';
+if (hourNow >= 18) {
+    document.querySelector('body').style.backgroundColor = '#677a81';
+} else if (hourNow >= 9) {
+    document.querySelector('body').style.backgroundColor = '#98A67B';
+    document.querySelector('h1').style.color = '#eee';
+} else if (hourNow >= 1) {
+    document.querySelector('body').style.backgroundColor = '#677a81';
+} else if (hourNow >= 0) {
+    document.querySelector('body').style.backgroundColor = '#222';
+    document.querySelector('h1').style.color = '#eee';
+} else {
+    document.querySelector('body').style.backgroundColor = 'orange';
 }

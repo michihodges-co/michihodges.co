@@ -181,15 +181,19 @@ let today = new Date();
 let hourNow = today.getHours();
 
 if (hourNow >= 18) {
-    document.querySelector('body').style.backgroundColor = '#677a81';
+    document.querySelector('.nav--global').style.backgroundColor = '#677a81';
+    document.querySelector('.header--landing').style.backgroundColor = '#677a81';
 } else if (hourNow >= 9) {
-    document.querySelector('body').style.backgroundColor = '#98A67B';
-    document.querySelector('h1').style.color = '#eee';
+    document.querySelector('.nav--global').style.backgroundColor = '#98A67B';
+    document.querySelector('.header--landing').style.backgroundColor = '#98A67B';
 } else if (hourNow >= 1) {
-    document.querySelector('body').style.backgroundColor = '#677a81';
+    document.querySelector('.nav--global').style.backgroundColor = '#677a81';
+    document.querySelector('.header--landing').style.backgroundColor = '#677a81';
 } else if (hourNow >= 0) {
     document.querySelector('body').style.backgroundColor = '#222';
-    document.querySelector('h1').style.color = '#eee';
+    document.querySelector('.h1--logo').style.color = '#eee';
+    document.querySelector('.a--logo').style.color = '#eee';
+    document.querySelector('.a--logo:visited').style.color = '#eee';
 } else {
     document.querySelector('body').style.backgroundColor = 'orange';
 }

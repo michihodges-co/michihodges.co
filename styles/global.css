@@ -14,11 +14,14 @@ html {
 /* BODY */
 .body--global {
     margin: 0;
+    background-color: #222;
 }
 
 /* NAV */
 .nav--global {
+    position: fixed;
     height: 7vh;
+    width: 100vw;
     padding-left: 20px;
     /* background-color: #98A67B; */
     display: flex;
@@ -50,7 +53,7 @@ html {
 .header--landing {
     /* background-color: #98A67B; */
     padding: 0 20px;
-    height: 88vh;
+    height: 95vh;
     display: flex;
     align-content: center;
     flex-wrap: wrap;

@@ -41,19 +41,6 @@ const headerLanding = document.createElement('header');
 bodyGlobal.appendChild(headerLanding);
 headerLanding.classList.add('header--landing');
 
-// H2
-/*
-const h2Landing = document.createElement('h2');
-headerLanding.appendChild(h2Landing);
-h2Landing.classList.add('h2--landing');
-const h2LandingName = document.createTextNode('Michael Hodges');
-h2Landing.appendChild(h2LandingName);
-const brGlobal = document.createElement('br');
-h2Landing.appendChild(brGlobal);
-const h2LandingTitle = document.createTextNode('Frontend Developer');
-h2Landing.appendChild(h2LandingTitle);
-*/
-
 // P
 const pLanding = document.createElement('p');
 headerLanding.appendChild(pLanding);
@@ -101,38 +88,6 @@ twitterLink.classList.add('a--social');
 twitterLink.setAttribute('href', 'https://twitter.com/michihodges');
 const twitter = document.createTextNode('Twitter');
 twitterLink.appendChild(twitter);
-
-/*
-const h3CodePen = document.createElement('h3');
-headerLanding.appendChild(h3CodePen);
-h3CodePen.classList.add('h2--landing');
-const h3CodePenLink = document.createTextNode('CodePen');
-h3CodePen.appendChild(h3CodePenLink);
-
-const h3Behance = document.createElement('h3');
-headerLanding.appendChild(h3Behance);
-h3Behance.classList.add('h2--landing');
-const h3BehanceLink = document.createTextNode('Behance');
-h3Behance.appendChild(h3BehanceLink);
-
-const h3Medium = document.createElement('h3');
-headerLanding.appendChild(h3Medium);
-h3Medium.classList.add('h2--landing');
-const h3MediumLink = document.createTextNode('Medium');
-h3Medium.appendChild(h3MediumLink);
-
-const h3StackOverflow = document.createElement('h3');
-headerLanding.appendChild(h3StackOverflow);
-h3StackOverflow.classList.add('h2--landing');
-const h3StackOverflowLink = document.createTextNode('Stack Overflow');
-h3StackOverflow.appendChild(h3StackOverflowLink);
-
-const h3Instagram = document.createElement('h3');
-headerLanding.appendChild(h3Instagram);
-h3Instagram.classList.add('h2--landing');
-const h3InstagramLink = document.createTextNode('Instagram');
-h3Instagram.appendChild(h3InstagramLink);
-*/
 
 // FOOTER ////
 const footerGlobal = document.createElement('footer');

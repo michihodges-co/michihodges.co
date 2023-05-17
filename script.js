@@ -61,21 +61,6 @@ gitHubLink.setAttribute('href', 'https://github.com/michihodges');
 const gitHub = document.createTextNode('GitHub');
 gitHubLink.appendChild(gitHub);
 
-/*
-// H3 LINKEDIN
-const h3LinkedIn = document.createElement('h3');
-headerLanding.appendChild(h3LinkedIn);
-h3LinkedIn.classList.add('h3--landing');
-
-// A LINKEDIN
-const linkedInLink = document.createElement('a');
-h3LinkedIn.appendChild(linkedInLink);
-linkedInLink.classList.add('a--social');
-linkedInLink.setAttribute('href', 'https://www.linkedin.com/in/michihodges/');
-const linkedIn = document.createTextNode('LinkedIn');
-linkedInLink.appendChild(linkedIn);
-*/
-
 // H3 TWITTER
 const h3Twitter = document.createElement('h3');
 headerLanding.appendChild(h3Twitter);

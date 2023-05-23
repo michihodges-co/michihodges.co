@@ -11,16 +11,18 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
+
 /* BODY */
 .body--global {
     margin: 0;
     background-color: #222;
 }
 
+
 /* NAV */
 .nav--global {
     position: fixed;
-    height: 7vh;
+    height: 50px;
     width: 100vw;
     padding-left: 20px;
     /* background-color: #98A67B; */
@@ -28,7 +30,6 @@ html {
     align-items: center;
     justify-content: space-between;
 }
-
 
 /* LOGO */
 .h1--logo {
@@ -49,11 +50,12 @@ html {
     color: #222;
 }
 
+
 /* HEADER */
 .header--landing {
     /* background-color: #98A67B; */
     padding: 0 20px;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -92,9 +94,10 @@ html {
     color: #eee;
 }
 
+
 /* FOOTER */
 .footer--global {
-    height: 5vh;
+    height: 40px;
     padding-left: 20px;
     background-color: #222;
     display: flex;

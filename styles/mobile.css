@@ -8,4 +8,19 @@
     .h3--landing {
         width: 100%;
     }
+
+    /* FOOTER */
+    .footer {
+        height: 40px;
+        background-color: #222;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright {
+        font-family: Courier, monospace;
+        font-size: 12px;
+        color: #eee;
+    }
 }

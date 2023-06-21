@@ -61,6 +61,11 @@ html {
     flex-wrap: wrap;
 }
 
+.header--blog {
+    padding: 50px 20px 0;
+    height: 100vh;
+}
+
 .h2--landing {
     width: 100%;
     font-family: Courier, monospace;

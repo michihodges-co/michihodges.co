@@ -51,7 +51,7 @@ html {
 }
 
 
-/* HEADER */
+/* HEADER LANDING */
 .header--landing {
     /* background-color: #98A67B; */
     padding: 0 20px;
@@ -59,11 +59,6 @@ html {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
-}
-
-.header--blog {
-    padding: 50px 20px 0;
-    height: 100vh;
 }
 
 .h2--landing {
@@ -97,4 +92,11 @@ html {
 
 .a--social:visited {
     color: #eee;
+}
+
+
+/* HEADER BLOG */
+.header--blog {
+    padding: 50px 20px 0;
+    height: 100vh;
 }

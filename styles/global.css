@@ -50,8 +50,8 @@ html {
     color: #222;
 }
 
-
-/* HEADER LANDING */
+/* LANDING PAGE */
+/* HEADER */
 .header--landing {
     /* background-color: #98A67B; */
     padding: 0 20px;
@@ -95,7 +95,8 @@ html {
 }
 
 
-/* HEADER BLOG */
+/* BLOG */
+/* HEADER */
 .header--blog {
     padding: 50px 20px 0;
     height: 100vh;

@@ -5,20 +5,24 @@
     }
 
     /* SOCIAL */
-    .h3--landing {
+    /*.h3--landing {
         width: 100%;
-    }
+    }*/
 
     /* FOOTER */
     .footer {
         height: 40px;
+        margin-left: 20px;
+        padding-top: 15px;
         background-color: #222;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block;
+        /*display: flex;*/
+        /*justify-content: center;
+        align-items: center;*/
     }
 
     .copyright {
+        padding-bottom: 12px;
         font-family: Courier, monospace;
         font-size: 12px;
         color: #eee;

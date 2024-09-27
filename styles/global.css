@@ -19,8 +19,8 @@ html {
 }
 
 
-/* NAV */
-.nav--global {
+/* HEADER */
+.header--global {
     position: fixed;
     height: 50px;
     width: 100vw;
@@ -32,8 +32,8 @@ html {
     z-index: 1;
 }
 
-/* LOGO */
-.h1--logo {
+/* NAME */
+.h1--name {
     margin: 0;
     font-family: Courier, monospace;
     font-size: 15px;
@@ -42,12 +42,12 @@ html {
     letter-spacing: 3px;
 }
 
-.a--logo {
+.a--name {
     text-decoration: none;
     color: #222;
 }
 
-.a--logo:visited {
+.a--name:visited {
     color: #222;
 }
 

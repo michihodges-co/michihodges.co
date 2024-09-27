@@ -52,8 +52,8 @@ html {
 }
 
 /* LANDING PAGE */
-/* HEADER */
-.header--landing {
+/* MAIN */
+.main--landing {
     /* background-color: #98A67B; */
     padding: 0 20px;
     height: 100vh;

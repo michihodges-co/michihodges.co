@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /imgs/jw.png.jpg
+Disallow: /imgs/jw.png

@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    animation: fade-img 5s;
+}
+
+p {
+    color: #eee;
+    font-family: 'Courier New', Courier, monospace;
+    animation: fade-p 3s;
+}
+
+@keyframes fade-img {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-p {
+    0% {
+        color: rgba(238, 238, 238, 0);
+    }
+    100% {
+        color: rgba(238, 238, 238, 1);
+    }
+}

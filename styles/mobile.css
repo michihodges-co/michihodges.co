@@ -4,21 +4,12 @@
         display: none;
     }
 
-    /* SOCIAL */
-    /*.h3--landing {
-        width: 100%;
-    }*/
-
-    /* FOOTER */
     .footer {
         height: 40px;
         margin-left: 20px;
         padding-top: 15px;
         background-color: #222;
         display: block;
-        /*display: flex;*/
-        /*justify-content: center;
-        align-items: center;*/
     }
 
     .copyright {

@@ -9,17 +9,9 @@
     }
 
     /* SOCIAL */
-    /*.h3--landing {
-        width: auto;
-    }*/
-
     .footer {
         height: 40px;
-        /*padding-left: 20px;*/
         background-color: #222;
-        /*display: flex;*/
-        /*justify-content: normal;
-        align-items: center;*/
     }
 
     .copyright {
